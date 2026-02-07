@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOMS | L'Architecture de Demain</title>
+    <style>
+        :root {
+            --cyan: #00E5FF;
+            --dark-bg: #050505;
+            --card-bg: #111111;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav {
+            padding: 25px;
+            border-bottom: 1px solid #1a1a1a;
+            letter-spacing: 4px;
+            color: var(--cyan);
+            font-weight: bold;
+        }
+
+        .hero {
+            padding: 100px 20px;
+            background: radial-gradient(circle at center, #001f3f 0%, #050505 70%);
+        }
+
+        h1 { font-size: 4rem; margin: 0; letter-spacing: 15px; }
+
+        /* Style du Bouton Contact */
+        .btn-contact {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 40px;
+            background-color: transparent;
+            color: var(--cyan);
+            border: 2px solid var(--cyan);
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            letter-spacing: 2px;
+        }
+
+        .btn-contact:hover {
+            background-color: var(--cyan);
+            color: #000;
+            box-shadow: 0 0 20px var(--cyan);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid #222;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        .card h3 { color: var(--cyan); }
+
+        footer { padding: 40px; color: #444; border-top: 1px solid #111; }
+    </style>
+</head>
+<body>
+
+    <nav>AOMS TECHNOLOGIES</nav>
+
+    <header class="hero">
+        <h1>AOMS</h1>
+        <p style="color: #888; font-style: italic;">"L'Architecture de demain, aujourd'hui."</p>
+        
+        <a href="mailto:votre-email@gmail.com" class="btn-contact">CONTACT INVESTISSEURS</a>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h3>VT25</h3>
+            <p>Sécurité & Défense Autonome.</p>
+        </div>
+        <div class="card">
+            <h3>VT28</h3>
+            <p>Mobilité Aérienne Urbaine.</p>
+        </div>
+        <div class="card">
+            <h3>VT35</h3>
+            <p>Exploration Temporelle Quantique.</p>
+        </div>
+    </main>
+
+    <footer>
+        AOMS © 2026 | CONAKRY, GUINÉE
+    </footer>
+
+</body>
+</html>
