@@ -1,0 +1,19 @@
+<h2 class="section-title">Direction & Vision</h2>
+<div class="container">
+    <div class="card" style="text-align: center;">
+        <div style="width: 100px; height: 100px; background: #222; border-radius: 50%; margin: 0 auto 20px; border: 2px solid var(--cyan); display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: var(--cyan);">
+            AS
+        </div>
+        <h3>Aboulaye Sylla</h3>
+        <p class="status">Fondateur & CEO</p>
+        <p style="font-size: 0.9rem; color: #ccc; margin-top: 15px;">
+            Visionnaire en ingénierie avancée et systèmes complexes. Architecte principal des programmes VT25, VT28 et VT35.
+        </p>
+    </div>
+    
+    <div class="card" style="border: 1px dashed #444; opacity: 0.7;">
+        <h3>Rejoindre AOMS</h3>
+        <p>Nous recherchons des experts en IA, propulsion eVTOL et physique quantique pour repousser les limites du possible.</p>
+        <div class="tech-spec">Postes ouverts : Ingénieur Systèmes | Chercheur Quantique</div>
+    </div>
+</div>
