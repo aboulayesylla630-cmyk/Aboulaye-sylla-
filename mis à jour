@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOMS | Projets en Cours</title>
+    <style>
+        :root { --cyan: #00E5FF; --bg: #050505; --card: #111; }
+        body { background: var(--bg); color: white; font-family: 'Segoe UI', sans-serif; margin: 0; text-align: center; }
+        
+        nav { padding: 20px; border-bottom: 1px solid #222; color: var(--cyan); letter-spacing: 3px; font-weight: bold; }
+        
+        .hero { padding: 80px 20px; background: radial-gradient(circle at center, #001f3f 0%, #050505 80%); }
+        h1 { font-size: 3.5rem; margin: 0; letter-spacing: 10px; }
+        
+        .btn-contact {
+            display: inline-block; margin: 20px; padding: 12px 30px;
+            border: 2px solid var(--cyan); color: var(--cyan);
+            text-decoration: none; border-radius: 50px; font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-contact:hover { background: var(--cyan); color: black; box-shadow: 0 0 15px var(--cyan); }
+
+        h2 { color: var(--cyan); margin-top: 50px; text-transform: uppercase; letter-spacing: 5px; }
+
+        .container {
+            max-width: 1100px; margin: 0 auto; padding: 40px 20px;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px;
+        }
+
+        .card {
+            background: var(--card); border: 1px solid #222; padding: 25px;
+            border-radius: 15px; text-align: left; transition: 0.4s;
+        }
+        .card:hover { border-color: var(--cyan); transform: translateY(-5px); }
+        
+        .tech-spec { font-size: 0.85rem; color: #888; margin-top: 15px; border-top: 1px solid #222; padding-top: 15px; }
+        .status { color: #555; font-size: 0.75rem; font-weight: bold; text-transform: uppercase; }
+        .highlight { color: var(--cyan); }
+
+        footer { padding: 40px; color: #333; font-size: 0.8rem; border-top: 1px solid #111; }
+    </style>
+</head>
+<body>
+
+    <nav>AOMS TECHNOLOGIES</nav>
+
+    <header class="hero">
+        <h1>AOMS</h1>
+        <p style="color: #666; font-style: italic;">L'Architecture de demain, aujourd'hui.</p>
+        <a href="mailto:votre-email@gmail.com" class="btn-contact">CONTACTER LA DIRECTION</a>
+    </header>
+
+    <h2>Projets en cours</h2>
+
+    <div class="container">
+        <div class="card">
+            <span class="status">Phase : Développement Software</span>
+            <h3>VT25 : Sentinelle Alpha</h3>
+            <p>Système de sécurité périmétrique utilisant une IA à réseau de neurones pour la reconnaissance anticipée de menaces.</p>
+            <div class="tech-spec">
+                <strong>Specs :</strong> Latence < 10ms | Scan LiDAR 360° | Protocole d'intervention chiffré.
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="status">Phase : Prototypage</span>
+            <h3>VT28 : Vecteur Urbain</h3>
+            <p>Unité de mobilité aérienne légère conçue pour le transport rapide en milieu urbain dense.</p>
+            <div class="tech-spec">
+                <strong>Specs :</strong> Propulsion Multi-rotor | Charge utile 150kg | Autonomie de vol optimisée.
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="status">Phase : Recherche Théorique</span>
+            <h3>VT35 : Chronos-Core</h3>
+            <p>Laboratoire de physique quantique appliquée visant l'étude des singularités et du transfert d'informations temporelles.</p>
+            <div class="tech-spec">
+                <strong>Specs :</strong> Refroidissement cryogénique | Stabilité atomique | Calcul Quantique 128-qubits.
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        AOMS © 2026 | CONAKRY | GUINÉE
+    </footer>
+
+</body>
+</html>
